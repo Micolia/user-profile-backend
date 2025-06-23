@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+body {
+  background: #284b63;
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: .5s;
+}
+
+a:hover {
+  color: #dddddd;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px 20px;
+}
+
+.navbar .logo{
+  font-weight: bold;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.navbar .opciones {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .opciones span{
+  cursor: pointer;
+}
+
+.navbar .register-btn {
+  background: #3c6e71;
+  color: white;
+}
+
+.navbar .login-btn {
+  background: #d9d9d9;
+}
